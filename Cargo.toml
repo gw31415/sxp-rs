@@ -1,0 +1,14 @@
+[package]
+name = "sxp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cairo-rs = { version = "0.18.3", features = ["svg"] }
+clap = { version = "4.4.11", features = ["derive"] }
+clap_complete = "4.4.4"
+librsvg = "2.57.0"
+poppler-rs = "0.22.0"
+url = "2.5.0"
